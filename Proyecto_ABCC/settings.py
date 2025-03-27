@@ -84,10 +84,10 @@ DATABASES = {
 
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'sql10768934',
-        'USER': 'sql10768934',
-        'PASSWORD': 'mcj3CWpmHz',
-        'HOST': 'sql10.freesqldatabase.com',
+        'NAME': 'btd09d2jis1xdrtolu1w',
+        'USER': 'uaayyh5vhg01gz0h',
+        'PASSWORD': 'myubJ68FiGMFjp7RWEKG',
+        'HOST': 'btd09d2jis1xdrtolu1w-mysql.services.clever-cloud.com',
         'PORT': '3306',
     }
 }
