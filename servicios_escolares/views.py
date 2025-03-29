@@ -25,6 +25,7 @@ class ListarAlumnos(ListView):
 #--- ALTAS ---
 class CrearAlumno(SuccessMessageMixin, CreateView):
     model = Alumno
+    form = Alumno
     fields = "__all__"
     success_message = "Alumno AGREGADO correctamente!!!"
     def get_success_url(self):
