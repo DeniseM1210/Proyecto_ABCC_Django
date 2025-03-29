@@ -27,7 +27,8 @@ class CrearAlumno(SuccessMessageMixin, CreateView):
     model = Alumno
     fields = "__all__"
     success_message = "Alumno AGREGADO correctamente!!!"
-    success_url="/alumnos/index"
+    def get_success_url(self):
+        return reverse('listar')
 
 
 #--- BAJAS ---
