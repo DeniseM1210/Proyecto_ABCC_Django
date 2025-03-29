@@ -21,10 +21,10 @@ from servicios_escolares.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
 
-    path('login/', LoginAlumno.as_view(template_name="alumnos/login.html"), name='login'),
-    path('alumnos/index/', ListarAlumnos.as_view(template_name="alumnos/index.html"), name='listar' ),
+    path('alumnos/', ListarAlumnos.as_view(template_name="alumnos/index.html"), name='listar' ),
     path('alumnos/detalle/<int:pk>/', DetalleAlumno.as_view(template_name="alumnos/detalle.html"), name='detalle' ),
     path('alumnos/crear/', CrearAlumno.as_view(template_name="alumnos/crear.html"), name='crear' ),
     path('alumnos/editar/<int:pk>/', ActualizarAlumno.as_view(template_name="alumnos/editar.html"), name='editar' ),
     path('alumnos/eliminar/<int:pk>/', EliminarAlumno.as_view(), name='eliminar' ),
+    path('', login, name='login'),
 ]

@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-f3n1m37igdb$lsnnm@+a&2^h+v9qciq*a=$3ign0x*)@@e-#1r
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['tu-app.onrender.com']
 
 
 # Application definition
@@ -84,11 +84,11 @@ DATABASES = {
 
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'BD_Django_2025',
-        'USER': 'root',
-        'PASSWORD': 'nanami777',
-        'HOST': 'localhost',
-        'PORT': '3307',
+        'NAME': 'btd09d2jis1xdrtolu1w',
+        'USER': 'uaayyh5vhg01gz0h',
+        'PASSWORD': 'myubJ68FiGMFjp7RWEKG',
+        'HOST': 'btd09d2jis1xdrtolu1w-mysql.services.clever-cloud.com',
+        'PORT': '3306',
     }
 }
 

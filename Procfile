@@ -1,0 +1,1 @@
+web: gunicorn Proyecto_ABCC.wsgi:application

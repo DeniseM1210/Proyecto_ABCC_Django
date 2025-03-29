@@ -15,10 +15,8 @@ from django.contrib.messages.views import SuccessMessageMixin
 from django import forms
 
 # Login
-class LoginAlumno(LoginView):
-    model = Alumno
-    template_name = "alumnos/index.html"
-    context_object_name = "alumnos"
+def login(request):
+    return render(request, 'alumnos/login.html')
 
 # --- CONSULTAR TODOS LOS ALUMNOS ---
 class ListarAlumnos(ListView):
